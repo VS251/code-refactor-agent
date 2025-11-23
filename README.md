@@ -50,6 +50,6 @@ python main.py --file your_script.py --instruction "Refactor this to use a class
 ```
 
 ## Architecture
-**Ingestion:** Scans .py files -> Embeds using all-MiniLM-L6-v2 -> Stores in ChromaDB.
-**Retrieval:** Agent queries ChromaDB for context ("How is this function used elsewhere?").
-**Action:** Agent uses read_file -> validate_syntax -> write_file tools to safely modify code.
+* **Ingestion:** Scans .py files -> Embeds using all-MiniLM-L6-v2 -> Stores in ChromaDB.
+* **Retrieval:** Agent queries ChromaDB for context ("How is this function used elsewhere?").
+* **Action:** Agent uses read_file -> validate_syntax -> write_file tools to safely modify code.
