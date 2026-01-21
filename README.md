@@ -9,7 +9,7 @@ An autonomous AI agent that performs static code analysis and refactoring on you
 * **Safety Guards:** Includes a syntax validation tool (`ast` module) that prevents the agent from saving broken Python code.
 * **Privacy-First:** Runs 100% locally on your machine—no code leaves your computer.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **Core Logic:** Python 3.9+
 * **Orchestration:** LangChain
@@ -21,7 +21,7 @@ An autonomous AI agent that performs static code analysis and refactoring on you
 
 1.  **Clone the repo**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/code-refactor-agent.git](https://github.com/YOUR_USERNAME/code-refactor-agent.git)
+    git clone https://github.com/VS251/code-refactor-agent.git
     cd code-refactor-agent
     ```
 
